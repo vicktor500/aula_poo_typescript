@@ -1,0 +1,17 @@
+class Monstro{
+    nome: string 
+    forca: number 
+    nivel: number 
+    comportamento: string 
+        constructor (nome: string, forca: number, nivel: number, comportamento: string){
+            this.nome = nome
+            this.forca = forca
+            this.nivel = nivel
+            this .comportamento = comportamento
+        }
+    olharAterrorizante(){
+        console.log('olhar aterrorizante!!!')
+    }
+}
+let monstro1 = new Monstro('slime', 5, 1, 'passiva')
+    console.log(monstro1)
